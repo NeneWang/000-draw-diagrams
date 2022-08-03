@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T19:58:29.317Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NB3C0t3wbzDMsP4-3KtG" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T20:46:25.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="E2gM-hibYgARDJIn0Iae" version="20.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Log-Mapper-design-doc">
-    <mxGraphModel dx="2287" dy="1634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2558" dy="1833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -381,14 +381,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-125" value="ElasticManager" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1020" y="1030" width="410" height="292" as="geometry">
+          <mxGeometry x="1020" y="1030" width="410" height="392" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-126" value="# In charge of uploading things into ElasticSearch by providing&#xa;a list of jsons that it is suggested to parse from." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="fFq8vvGBtdf_9SsJWLKA-125" vertex="1">
           <mxGeometry y="26" width="410" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="fFq8vvGBtdf_9SsJWLKA-127" value="+ jsoninputs: array of dicts containing the type and the bulk count." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="fFq8vvGBtdf_9SsJWLKA-125" vertex="1">
+        <mxCell id="fFq8vvGBtdf_9SsJWLKA-127" value="+ inputFiles: array of dicts containing the type and the bulk count." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="fFq8vvGBtdf_9SsJWLKA-125" vertex="1">
           <mxGeometry y="80" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-129" value="+ credentials: dict containing the credentials" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="fFq8vvGBtdf_9SsJWLKA-125" vertex="1">
@@ -406,8 +406,17 @@
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-134" value="connectElastic(credentials):" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fFq8vvGBtdf_9SsJWLKA-125" vertex="1">
           <mxGeometry y="236" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fFq8vvGBtdf_9SsJWLKA-131" value="uploadToElasticSearch(): gets interpreted array based on the input" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fFq8vvGBtdf_9SsJWLKA-125" vertex="1">
+        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-60" value="populateInputFiles(prefix, max, min, extension)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-125">
           <mxGeometry y="262" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fFq8vvGBtdf_9SsJWLKA-131" value="uploadToElasticSearch(): gets interpreted array based on the input" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fFq8vvGBtdf_9SsJWLKA-125" vertex="1">
+          <mxGeometry y="288" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-56" value="convertBulkeable() # Outputs into the &quot;Elasticsearch&quot; as JSON" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-125">
+          <mxGeometry y="314" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-57" value="multipleUpload(filenamesArray):" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-125">
+          <mxGeometry y="340" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-141" value="bucketManager = BucketManager(SETTINGS_FILE, &#39;!activity&#39;)&#xa;bucketManager.initializeCategories()&#xa;print(bucketManager.categoriesMap)&#xa;print(bucketManager.categorize(&quot;Update&quot;))" style="text;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="510" y="1510" width="370" height="80" as="geometry" />
