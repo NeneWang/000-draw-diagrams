@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T20:33:57.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="X8HS0zRao8sFk1BYot_N" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T20:59:06.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="GuHDzTuFe1H4SytXawDH" version="20.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Log-Mapper-design-doc">
-    <mxGraphModel dx="2031" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2044" dy="1656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -171,7 +171,7 @@
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-129" value="+exportSeparatedRaw(chunkSize=1000, exportName=&quot;mapped-data&quot;)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
           <mxGeometry y="1200" width="360" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-137" value="uploadFileOuputFromMethod(elasticManager, &#xa;jsonExportMethod, indexName=&quot;platinum-employees-mapped&quot;)&#xa;# If you want to export what and create the JSON at the same time." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
+        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-137" value="uploadListToElastic(elasticManager, jsonFIleNamesCreated)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
           <mxGeometry y="1238" width="360" height="52" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-38" value="+addAuditFile(rawName, @interpreterType)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
