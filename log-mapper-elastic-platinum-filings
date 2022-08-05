@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T18:50:59.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4f2mKISvfegc_wRRZ8UW" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-05T19:12:45.200Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="rUVSi8BJSGWy_F4OsneI" version="20.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Log-Mapper-design-doc">
-    <mxGraphModel dx="2184" dy="2923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="3150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--17" value="ConfigMapper" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-242.99" y="1638" width="440" height="494" as="geometry">
+          <mxGeometry x="-240" y="2468" width="440" height="494" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -86,7 +86,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-31" value="LogManager" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="70" y="-290" width="360" height="1640" as="geometry">
+          <mxGeometry x="70" y="-290" width="360" height="1690" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -361,7 +361,7 @@
           <mxGeometry y="148" width="360" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-98" value="BucketMapper" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="454.01" y="1638" width="360" height="322" as="geometry">
+          <mxGeometry x="457" y="2468" width="360" height="322" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -397,22 +397,22 @@
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;dashed=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fFq8vvGBtdf_9SsJWLKA-107" target="zkfFHV4jXpPFQw0GAbJ--17" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="407.00999999999954" y="1368" as="sourcePoint" />
-            <mxPoint x="207.01000000000045" y="1450" as="targetPoint" />
+            <mxPoint x="409.99999999999955" y="2198" as="sourcePoint" />
+            <mxPoint x="210.00000000000045" y="2280" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="377.01" y="1588" />
-              <mxPoint x="87.01" y="1588" />
+              <mxPoint x="380" y="2418" />
+              <mxPoint x="90" y="2418" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;endArrow=none;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="fFq8vvGBtdf_9SsJWLKA-98" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="377.01" y="1558" as="sourcePoint" />
-            <mxPoint x="67.01" y="1398" as="targetPoint" />
+            <mxPoint x="380" y="2388" as="sourcePoint" />
+            <mxPoint x="70" y="2228" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="377.01" y="1588" />
-              <mxPoint x="547.01" y="1588" />
-              <mxPoint x="547.01" y="1638" />
+              <mxPoint x="380" y="2418" />
+              <mxPoint x="550" y="2418" />
+              <mxPoint x="550" y="2468" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -471,10 +471,10 @@
           <mxGeometry y="314" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-141" value="bucketManager = BucketManager(SETTINGS_FILE, &#39;!activity&#39;)&#xa;bucketManager.initializeCategories()&#xa;print(bucketManager.categoriesMap)&#xa;print(bucketManager.categorize(&quot;Update&quot;))" style="text;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="497.01" y="2008" width="370" height="80" as="geometry" />
+          <mxGeometry x="500" y="2838" width="370" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-159" value="But array of what?? | Doens&#39;t &lt;br&gt;really make sense to have that" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="237.01" y="2073" width="190" height="40" as="geometry" />
+          <mxGeometry x="240" y="2903" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=block;endFill=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fFq8vvGBtdf_9SsJWLKA-149" target="fFq8vvGBtdf_9SsJWLKA-159" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -549,7 +549,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-107" value="Mapper" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#FFD966;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="190" y="1290" width="360" height="254" as="geometry">
+          <mxGeometry x="192.99" y="2120" width="360" height="254" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
