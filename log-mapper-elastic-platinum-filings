@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T16:05:58.502Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="8OhAqHNY2sQGzzYr7rKS" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-05T18:50:59.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4f2mKISvfegc_wRRZ8UW" version="20.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Log-Mapper-design-doc">
-    <mxGraphModel dx="2159" dy="2756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2184" dy="2923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -86,7 +86,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-31" value="LogManager" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="70" y="-290" width="360" height="1580" as="geometry">
+          <mxGeometry x="70" y="-290" width="360" height="1640" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -123,87 +123,90 @@
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-34" value="configMapDict: A dictionary of mappers from files of different" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
           <mxGeometry y="410" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fFq8vvGBtdf_9SsJWLKA-53" value="bucketMapDict: #Contains an array of bucketMappers &#xa;e.g.{&quot;!activity&quot;: reference to bucket Mapper}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
+        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-169" value="+settingWB # Initiates on __init__ saves the &#xa;workbook for saving things" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
           <mxGeometry y="470" width="360" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fFq8vvGBtdf_9SsJWLKA-53" value="bucketMapDict: #Contains an array of bucketMappers &#xa;e.g.{&quot;!activity&quot;: reference to bucket Mapper}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
+          <mxGeometry y="530" width="360" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-120" value="interpreterDict: A dictionary containing the proper interpreters &#xa;for each extension file." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
-          <mxGeometry y="530" width="360" height="46" as="geometry" />
+          <mxGeometry y="590" width="360" height="46" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-169" value="configAttributes: Array&lt;IndexedSaver&gt; of attributes." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
-          <mxGeometry y="576" width="360" height="46" as="geometry" />
+          <mxGeometry y="636" width="360" height="46" as="geometry" />
         </mxCell>
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-135" value="configAttributes: Array&lt;IndexedSaver&gt; of attributes." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
-          <mxGeometry y="622" width="360" height="46" as="geometry" />
+          <mxGeometry y="682" width="360" height="46" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-171" value="configTypes: Array&lt;IndexedSaver&gt; of configs Types &#xa;e.g. {name:365, index: 3}." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
-          <mxGeometry y="668" width="360" height="46" as="geometry" />
+          <mxGeometry y="728" width="360" height="46" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-35" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
-          <mxGeometry y="714" width="360" height="8" as="geometry" />
+          <mxGeometry y="774" width="360" height="8" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-36" value="+__init__(bucketSheetNameArray, @configFile, @configSheet ): &#xa;#When it starts it should initialize the attributes creation" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
-          <mxGeometry y="722" width="360" height="76" as="geometry" />
+          <mxGeometry y="782" width="360" height="76" as="geometry" />
         </mxCell>
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-147" value="+normalizeFields(rowDict) &#xa;#Normalize certain fields, breaks down fields such as Datefields" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
-          <mxGeometry y="798" width="360" height="50" as="geometry" />
+          <mxGeometry y="858" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-148" value="+createDateFields(rowDict) &#xa;#Called by normalizeFields to populate the all the date fields, &#xa;for easy search using Elastic." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
-          <mxGeometry y="848" width="360" height="50" as="geometry" />
+          <mxGeometry y="908" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-47" value="+initializeBucketMapper() &#xa;#Populates the bucketMapDict with proper BucketMappers" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
-          <mxGeometry y="898" width="360" height="50" as="geometry" />
+          <mxGeometry y="958" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-46" value="+initializeConfigMapper() &#xa;#Populates the configMapDict with proper ConfigMapper" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
-          <mxGeometry y="948" width="360" height="50" as="geometry" />
+          <mxGeometry y="1008" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-37" value="+createIdexedDicts() # Created the array of IndexedSaver for the &#xa;Type and Column elements" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
-          <mxGeometry y="998" width="360" height="50" as="geometry" />
+          <mxGeometry y="1058" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-147" value="+mapData(auditFile&lt;AuditFile&gt;) # A function that when &#xa;called translates maps using the bucket Formula -&gt; It uses &#xa;bucketMapper object from the thing, has to be specified &#xa;from a higher level program. -&gt; Checks the interpreter type of &#xa;that auditFile and then works to make that happen" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
-          <mxGeometry y="1048" width="360" height="92" as="geometry" />
+          <mxGeometry y="1108" width="360" height="92" as="geometry" />
         </mxCell>
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-26" value="+mapAllData() # maps all Audit files belonging to&#xa; this Log Manager" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
-          <mxGeometry y="1140" width="360" height="54" as="geometry" />
+          <mxGeometry y="1200" width="360" height="54" as="geometry" />
         </mxCell>
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-61" value="exportJsons(@chunkSize=1000) &#xa;#Writes into chunks of $chunkSize" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
-          <mxGeometry y="1194" width="360" height="46" as="geometry" />
+          <mxGeometry y="1254" width="360" height="46" as="geometry" />
         </mxCell>
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-128" value="+exportAsSingle(chunkSize=1000, exportName=&quot;mapped-data&quot;)&#xa;# Exports all dictionary information as a single output @returns: &#xa;The amo" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
-          <mxGeometry y="1240" width="360" height="56" as="geometry" />
+          <mxGeometry y="1300" width="360" height="56" as="geometry" />
         </mxCell>
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-99" value="+exportAsSingle(chunkSize=1000, exportName=&quot;mapped-data&quot;)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
-          <mxGeometry y="1296" width="360" height="38" as="geometry" />
+          <mxGeometry y="1356" width="360" height="38" as="geometry" />
         </mxCell>
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-129" value="+exportSeparatedRaw(chunkSize=1000, exportName=&quot;mapped-data&quot;)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
-          <mxGeometry y="1334" width="360" height="38" as="geometry" />
+          <mxGeometry y="1394" width="360" height="38" as="geometry" />
         </mxCell>
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-140" value="+findBucketMapperNames() returns list for the sheetnames i" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
-          <mxGeometry y="1372" width="360" height="54" as="geometry" />
+          <mxGeometry y="1432" width="360" height="54" as="geometry" />
         </mxCell>
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-137" value="uploadListToElastic(elasticManager, jsonFIleNamesCreated)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
-          <mxGeometry y="1426" width="360" height="52" as="geometry" />
+          <mxGeometry y="1486" width="360" height="52" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-38" value="+addAuditFile(rawName, @interpreterType)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
-          <mxGeometry y="1478" width="360" height="26" as="geometry" />
+          <mxGeometry y="1538" width="360" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-132" value="+generateDistributedJSON(amount, inputType): &#xa;Generates multiple json files with $amount logs. for $type object.&#xa;-&gt; This is to avoid submitting a very large JSON." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
-          <mxGeometry y="1504" width="360" height="50" as="geometry" />
+          <mxGeometry y="1564" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-144" value="+initializeBucketMappers() # Generates the BucketMaps." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
-          <mxGeometry y="1554" width="360" height="26" as="geometry" />
+          <mxGeometry y="1614" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fFq8vvGBtdf_9SsJWLKA-31" source="fFq8vvGBtdf_9SsJWLKA-147" target="jgX0gHLmsn9Tbeh1Zd_f-147">
+        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0516;" edge="1" parent="fFq8vvGBtdf_9SsJWLKA-31" source="fFq8vvGBtdf_9SsJWLKA-147" target="jgX0gHLmsn9Tbeh1Zd_f-147">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-50" y="790" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-50" y="1094" />
-              <mxPoint x="-50" y="823" />
+              <mxPoint x="-250" y="1094" />
+              <mxPoint x="-250" y="823" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-165" value="Call on the end&lt;br&gt;of the cycle" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jgX0gHLmsn9Tbeh1Zd_f-164">
+        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-165" value="Call on end of &lt;br&gt;sourceDict&lt;br&gt;Mapping process&lt;br&gt;Before the appending" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jgX0gHLmsn9Tbeh1Zd_f-164">
           <mxGeometry x="0.7888" y="-1" relative="1" as="geometry">
-            <mxPoint x="-1" y="26" as="offset" />
+            <mxPoint x="-159" y="30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-54" value="ObjectTemplate&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -546,7 +549,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-107" value="Mapper" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#FFD966;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="197.01" y="1288" width="360" height="254" as="geometry">
+          <mxGeometry x="190" y="1290" width="360" height="254" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
