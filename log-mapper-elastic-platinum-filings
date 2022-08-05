@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T15:26:41.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WepmnbAMaHJyZYxzDSZ9" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-05T15:33:10.069Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kb_YNz2F54u8l_GwSbUy" version="20.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Log-Mapper-design-doc">
-    <mxGraphModel dx="2224" dy="2810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2264" dy="2842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -144,10 +144,10 @@
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-36" value="+__init__(bucketSheetNameArray, @configFile, @configSheet ): &#xa;#When it starts it should initialize the attributes creation" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
           <mxGeometry y="706" width="360" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-147" value="+normalizeFields() &#xa;#Normalize certain fields, breaks down fields such as Datefields" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
+        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-147" value="+normalizeFields(rowDict) &#xa;#Normalize certain fields, breaks down fields such as Datefields" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
           <mxGeometry y="782" width="360" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-148" value="+createDateFields() &#xa;#" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
+        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-148" value="+createDateFields(rowDict) &#xa;#Called by normalizeFields to populate the all the date fields, &#xa;for easy search using Elastic." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
           <mxGeometry y="832" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-47" value="+initializeBucketMapper() &#xa;#Populates the bucketMapDict with proper BucketMappers" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
