@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T16:04:27.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9EiA4TxQwrQDJmMLKtVu" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-05T16:05:58.502Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="8OhAqHNY2sQGzzYr7rKS" version="20.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Log-Mapper-design-doc">
-    <mxGraphModel dx="2243" dy="2825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2159" dy="2756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -191,6 +191,20 @@
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-144" value="+initializeBucketMappers() # Generates the BucketMaps." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
           <mxGeometry y="1554" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fFq8vvGBtdf_9SsJWLKA-31" source="fFq8vvGBtdf_9SsJWLKA-147" target="jgX0gHLmsn9Tbeh1Zd_f-147">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-50" y="1094" />
+              <mxPoint x="-50" y="823" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-165" value="Call on the end&lt;br&gt;of the cycle" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jgX0gHLmsn9Tbeh1Zd_f-164">
+          <mxGeometry x="0.7888" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="26" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-54" value="ObjectTemplate&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-670" y="350" width="360" height="218" as="geometry">
