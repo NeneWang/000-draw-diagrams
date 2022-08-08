@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T15:24:27.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="GMAvIOtPTBxQUTtJYxI0" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-08T15:25:28.356Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Xxg-5FttGkqsthZOfyqZ" version="20.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Log-Mapper-design-doc">
     <mxGraphModel dx="2262" dy="2833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -189,14 +189,14 @@
         <mxCell id="jgX0gHLmsn9Tbeh1Zd_f-137" value="uploadListToElastic(elasticManager, jsonFIleNamesCreated)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
           <mxGeometry y="1536" width="360" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="TmoPcVP7VcByMXbC2lF6-1" value="+getNestedValue(directionString, dictDir) # Returns nested value &#xa;using the value as listed." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
-          <mxGeometry y="1588" width="360" height="52" as="geometry" />
-        </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-38" value="+addAuditFile(rawName, @interpreterType)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f8cecc;strokeColor=#b85450;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
-          <mxGeometry y="1640" width="360" height="26" as="geometry" />
+          <mxGeometry y="1588" width="360" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-132" value="+generateDistributedJSON(amount, inputType): &#xa;Generates multiple json files with $amount logs. for $type object.&#xa;-&gt; This is to avoid submitting a very large JSON." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
-          <mxGeometry y="1666" width="360" height="50" as="geometry" />
+          <mxGeometry y="1614" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TmoPcVP7VcByMXbC2lF6-1" value="+getNestedValue(directionString, dictDir) # Returns nested value &#xa;using the value as listed." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fFq8vvGBtdf_9SsJWLKA-31">
+          <mxGeometry y="1664" width="360" height="52" as="geometry" />
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-144" value="+initializeBucketMappers() # Generates the BucketMaps." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="fFq8vvGBtdf_9SsJWLKA-31" vertex="1">
           <mxGeometry y="1716" width="360" height="26" as="geometry" />
