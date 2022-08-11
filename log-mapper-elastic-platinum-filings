@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T20:14:22.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47" etag="waQYHHh-L2Ix4KnGfuXY" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-11T20:15:08.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47" etag="_86N9p1-LCTba6cGNmR6" version="20.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Log-Mapper-design-doc">
-    <mxGraphModel dx="2432" dy="3200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1972" dy="2691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -797,6 +797,17 @@
         </mxCell>
         <mxCell id="GOaKfCRqif4ovIbWJ7hR-6" value="read(): # Reads the JSON and populates the data Dict Arr" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GOaKfCRqif4ovIbWJ7hR-0">
           <mxGeometry y="148" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GOaKfCRqif4ovIbWJ7hR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.507;entryY=1.188;entryDx=0;entryDy=0;dashed=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GOaKfCRqif4ovIbWJ7hR-0" target="jgX0gHLmsn9Tbeh1Zd_f-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2212.222222222222" y="374" as="sourcePoint" />
+            <mxPoint x="890" y="318" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2180" y="420" />
+              <mxPoint x="1430" y="420" />
+              <mxPoint x="1430" y="399" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
