@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T14:56:15.565Z" agent="5.0 (Windows)" etag="TrDJd0xcXDcc_k8A-7gb" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-19T14:56:20.712Z" agent="5.0 (Windows)" etag="As-1BqRTcSfm8ZevL6F1" version="20.2.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Log-Mapper-design-doc">
     <mxGraphModel dx="1959" dy="3104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -841,7 +841,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Z7MpDvsc9fAi4kPJEK1W-1" value="User" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="150" width="140" height="150" as="geometry" />
+          <mxGeometry x="20" y="150" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Z7MpDvsc9fAi4kPJEK1W-3" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Z7MpDvsc9fAi4kPJEK1W-1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
