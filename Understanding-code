@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T20:41:35.979Z" agent="5.0 (Windows)" etag="cUH2N9YE3-ZoBDHIHM46" version="20.2.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-23T20:42:41.853Z" agent="5.0 (Windows)" etag="dgHlIw0Aye9xW2UmkpnC" version="20.2.6" type="github" pages="4">
   <diagram id="MRUlnMp0k8IJ8Xo_iQTG" name="lib">
     <mxGraphModel dx="2172" dy="2973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -169,6 +169,9 @@
         </mxCell>
         <mxCell id="hMS-UQgsXkW0-lZ71BDZ-3" value="&lt;div&gt;Communication entails passing the filename and &lt;br&gt;&lt;/div&gt;&lt;div&gt;process type (or the way it should be processed.)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry y="580" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hMS-UQgsXkW0-lZ71BDZ-4" value="import os&lt;br&gt;&lt;br&gt;os.system(&quot;..\main-tester.py filename AUDIT360&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="670" width="360" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
