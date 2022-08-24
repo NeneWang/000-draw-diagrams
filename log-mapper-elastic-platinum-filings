@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T20:22:31.942Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="VA0HLRp9Uy6BhE4Dl6VR" version="20.2.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-24T20:24:34.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="grKuDB3e5_ZPn2siHFpQ" version="20.2.6" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Log-Mapper-design-doc">
     <mxGraphModel dx="2144" dy="2817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -984,7 +984,7 @@
         <mxCell id="28HtcK8AXSnTAkQKUcUj-9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="28HtcK8AXSnTAkQKUcUj-1">
           <mxGeometry y="310" width="410" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="28HtcK8AXSnTAkQKUcUj-10" value="__init__(inputFile, sheetname)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="28HtcK8AXSnTAkQKUcUj-1">
+        <mxCell id="28HtcK8AXSnTAkQKUcUj-10" value="__init__(client &lt;Elasticsearch&gt;, typeQuery&lt;String&gt;, index&lt;String&gt;&#xa;, queryDict&lt;Dict {KEY&lt;String&gt;: QUERY&lt;String&gt;}&gt; )" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="28HtcK8AXSnTAkQKUcUj-1">
           <mxGeometry y="318" width="410" height="42" as="geometry" />
         </mxCell>
         <mxCell id="28HtcK8AXSnTAkQKUcUj-11" value="useRowParser(targetRow): targets a specific row to parse &#xa;it&#39;s cell&#39;s content" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="28HtcK8AXSnTAkQKUcUj-1">
