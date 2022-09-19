@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T17:52:42.748Z" agent="5.0 (Windows)" etag="pLvi4arRKjjk7o8PCk2K" version="20.2.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-19T18:56:49.041Z" agent="5.0 (Windows)" etag="KsYSP-QC6dHTsGivepaW" version="20.3.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Log-Mapper-design-doc">
-    <mxGraphModel dx="2660" dy="3432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2975" dy="3359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -419,17 +419,18 @@
             <mxPoint x="409.99999999999955" y="2198" as="sourcePoint" />
             <mxPoint x="210.00000000000045" y="2280" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="380" y="2418" />
+              <mxPoint x="373" y="2418" />
               <mxPoint x="90" y="2418" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="fFq8vvGBtdf_9SsJWLKA-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;endArrow=none;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="fFq8vvGBtdf_9SsJWLKA-98" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="2388" as="sourcePoint" />
+            <mxPoint x="370" y="2380" as="sourcePoint" />
             <mxPoint x="70" y="2228" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="380" y="2418" />
+              <mxPoint x="370" y="2388" />
+              <mxPoint x="370" y="2418" />
               <mxPoint x="550" y="2418" />
               <mxPoint x="550" y="2468" />
             </Array>
