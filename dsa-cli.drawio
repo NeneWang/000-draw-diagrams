@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T00:47:14.799Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="X-JBZQKwsoOol2QJUqKU" version="20.8.15" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-09T00:47:33.251Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wTQOc9dRDxy-vBKZhciB" version="20.8.15" type="github" pages="3">
   <diagram id="fLdEP0xsssdr_DgaF347" name="architecure">
     <mxGraphModel dx="1260" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -15,6 +15,12 @@
         </mxCell>
         <mxCell id="pHhCRtA5IOra_pqgEW8--2" value="DSA Problems" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="270" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pHhCRtA5IOra_pqgEW8--3" value="Math Problems" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pHhCRtA5IOra_pqgEW8--4" value="System Design Problems" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
