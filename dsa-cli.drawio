@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T00:51:38.542Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="KcJ4fIMUCrI3CugC5EQE" version="20.8.15" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-09T00:52:12.142Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="qPBwbBviHzxje9o-A5fe" version="20.8.15" type="github" pages="3">
   <diagram id="fLdEP0xsssdr_DgaF347" name="architecure">
     <mxGraphModel dx="1260" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -158,29 +158,32 @@
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="18EclLm5TL0rQceKmeYN-1" value="Prompt: Text&lt;Md&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="18EclLm5TL0rQceKmeYN-0" vertex="1">
+        <mxCell id="18EclLm5TL0rQceKmeYN-4" value="id: int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="18EclLm5TL0rQceKmeYN-0" vertex="1">
           <mxGeometry y="26" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="18EclLm5TL0rQceKmeYN-2" value="Example Solutions: List[Text]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="18EclLm5TL0rQceKmeYN-0" vertex="1">
+        <mxCell id="e8HzyNDOTIiZ_C9iqLgy-0" value="slug" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="18EclLm5TL0rQceKmeYN-0">
           <mxGeometry y="52" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="18EclLm5TL0rQceKmeYN-3" value="State" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="18EclLm5TL0rQceKmeYN-0" vertex="1">
+        <mxCell id="18EclLm5TL0rQceKmeYN-1" value="Prompt: Text&lt;Md&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="18EclLm5TL0rQceKmeYN-0" vertex="1">
           <mxGeometry y="78" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="18EclLm5TL0rQceKmeYN-4" value="Postal Code" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="18EclLm5TL0rQceKmeYN-0" vertex="1">
+        <mxCell id="18EclLm5TL0rQceKmeYN-2" value="Example Solutions: List[Text]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="18EclLm5TL0rQceKmeYN-0" vertex="1">
           <mxGeometry y="104" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="18EclLm5TL0rQceKmeYN-5" value="Country" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="18EclLm5TL0rQceKmeYN-0" vertex="1">
+        <mxCell id="18EclLm5TL0rQceKmeYN-3" value="Title: " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="18EclLm5TL0rQceKmeYN-0" vertex="1">
           <mxGeometry y="130" width="270" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="18EclLm5TL0rQceKmeYN-5" value="Country" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="18EclLm5TL0rQceKmeYN-0" vertex="1">
+          <mxGeometry y="156" width="270" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="18EclLm5TL0rQceKmeYN-6" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="18EclLm5TL0rQceKmeYN-0" vertex="1">
-          <mxGeometry y="156" width="270" height="8" as="geometry" />
+          <mxGeometry y="182" width="270" height="8" as="geometry" />
         </mxCell>
         <mxCell id="18EclLm5TL0rQceKmeYN-7" value="Validate" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="18EclLm5TL0rQceKmeYN-0" vertex="1">
-          <mxGeometry y="164" width="270" height="26" as="geometry" />
+          <mxGeometry y="190" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="18EclLm5TL0rQceKmeYN-8" value="Output As Label" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="18EclLm5TL0rQceKmeYN-0" vertex="1">
-          <mxGeometry y="190" width="270" height="26" as="geometry" />
+          <mxGeometry y="216" width="270" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
