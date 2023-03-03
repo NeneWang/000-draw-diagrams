@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T14:39:19.669Z" agent="5.0 (Windows)" etag="lCBLOivAAmCHZdzwC73Q" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T14:39:47.157Z" agent="5.0 (Windows)" etag="5SaaDUYUxbatv68RnSYE" version="20.8.22" type="github">
   <diagram name="Page-1" id="IUxOKu0dbIdwTakqLazK">
     <mxGraphModel dx="1233" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -33,6 +33,9 @@
         </mxCell>
         <mxCell id="2rxak70cD-DugquTEaYe-10" value="&lt;div align=&quot;justify&quot;&gt;The idea is that&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;the template &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;would have a common method,&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;The temp file would always have&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;that, and it is loaded on request_time&lt;br&gt;&lt;/div&gt;&lt;div&gt;. So it can change?&lt;/div&gt;&lt;div&gt;Exports the module name with a change on naming, &lt;br&gt;&lt;/div&gt;&lt;div&gt;so it can work while having that Problems Interface.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-180" y="230" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2rxak70cD-DugquTEaYe-11" value="It would look like class (solution)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="375" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
