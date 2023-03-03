@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T14:36:49.724Z" agent="5.0 (Windows)" etag="T2cTgjv2ENZltIucDTls" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T14:38:05.071Z" agent="5.0 (Windows)" etag="eHHYzCY9scqNQ0ZJJfDg" version="20.8.22" type="github">
   <diagram name="Page-1" id="IUxOKu0dbIdwTakqLazK">
-    <mxGraphModel dx="393" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1243" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,6 +30,9 @@
         </mxCell>
         <mxCell id="2rxak70cD-DugquTEaYe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2rxak70cD-DugquTEaYe-6" target="2rxak70cD-DugquTEaYe-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2rxak70cD-DugquTEaYe-10" value="&lt;div align=&quot;justify&quot;&gt;The idea is that&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;the template &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;would have a common method,&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;The temp file would always have&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;that, and it is loaded on request_time&lt;br&gt;&lt;/div&gt;. So it can change?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="245" width="230" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
