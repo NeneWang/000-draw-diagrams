@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T19:30:41.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="ciOlrQdpmDyFa_rYAoEM" version="21.1.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-04-27T19:30:52.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="c2azVcwsKES0D76ofu1S" version="21.1.4" type="github" pages="5">
   <diagram id="MRUlnMp0k8IJ8Xo_iQTG" name="lib">
     <mxGraphModel dx="2412" dy="2973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -180,7 +180,7 @@
         <mxCell id="LwrXxZvGnaDcqZabtGS0-10" value="GET Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="340" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LwrXxZvGnaDcqZabtGS0-11" value="Post to Staging Events Endpoint" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LwrXxZvGnaDcqZabtGS0-11" value="POST to Staging Events Endpoint" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="340" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LwrXxZvGnaDcqZabtGS0-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="LwrXxZvGnaDcqZabtGS0-6" target="LwrXxZvGnaDcqZabtGS0-1">
