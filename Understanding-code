@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T19:34:20.805Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="eLh415hxdm8RmzHLc-Ni" version="21.1.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-04-27T19:34:45.544Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="6lEm-dhHZbF07WLe4Q5v" version="21.1.4" type="github" pages="5">
   <diagram id="MRUlnMp0k8IJ8Xo_iQTG" name="lib">
     <mxGraphModel dx="2412" dy="2973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OdD1Eb7eWVywVhpQYCvV" name="Page-5">
-    <mxGraphModel dx="407" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="712" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,7 +171,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LwrXxZvGnaDcqZabtGS0-9" value="&lt;h1&gt;Salesforce API&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Create a Salesforce API for fetching the body of the data.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LwrXxZvGnaDcqZabtGS0-9" value="&lt;h1&gt;Salesforce API&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Create a Salesforce API for fetching the body of the data.&lt;br&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp;It returns also the amount of bodies to return.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="170" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="LwrXxZvGnaDcqZabtGS0-10" value="GET Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
